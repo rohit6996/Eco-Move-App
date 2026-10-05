@@ -1,0 +1,29 @@
+name: eco_move
+description: "Eco-Move Nagpur — Multimodal Smart & Sustainable Urban Transit"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  supabase_flutter: ^2.8.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  flutter_dotenv: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - .env
